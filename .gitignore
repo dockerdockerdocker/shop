@@ -18,9 +18,7 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
-myvenv
-db.sqlite3
-.DS_Store
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
