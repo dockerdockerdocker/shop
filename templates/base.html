@@ -14,19 +14,23 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
+
 </head>
 <body>
+
     <div class="wrapper">
+        <div class="wrapper-content">
+            {% include 'navbar.html' %}
 
-        {% include 'navbar.html' %}
-
-        {% block content %}
-        {% endblock content %}
-
+            {% block content %}
+            {% endblock content %}
+        </div>
 
     </div>
 
-{#    {% include 'footer.html' %}#}
+     {% include 'footer.html' %}
+
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
